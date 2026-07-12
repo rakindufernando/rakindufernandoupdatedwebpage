@@ -1,0 +1,487 @@
+[
+  {
+    "category": "UI/UX Design",
+    "date": "2025-03-02",
+    "title": "E-commerce Mobile Application",
+    "description": "In my 4th semester UI/UX module at IAICampus, I designed an interactive e-commerce mobile app prototype for TechTrend using Figma, focusing on user-centered design and refining the interface through user testing.",
+    "href": "https://rakindufernando.lk/ecommerce-app.html",
+    "id": "project-01",
+    "year": "2025",
+    "accent": "#00e5ff",
+    "code": "01",
+    "sourceImages": [
+      "E-commerce Mobile Application.jpg"
+    ],
+    "images": [
+      "/media/projects/e-commerce-mobile-application.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2025-07-15",
+    "title": "Vibrant Banner",
+    "description": "As part of a promotional campaign for commerce education, I designed this vibrant banner for Mr. Suranga Attapattu, a well-known tutor specializing in A/L Accounting and O/L Business & Accounting Studies. The layout combines bold typography with high-contrast color schemes to highlight key course offerings and contact details. The background features educational icons to reinforce the academic theme, while the tutor’s portrait adds a personal and trustworthy touch. The design ensures readability across both print and digital platforms and was optimized for social media sharing, flyers, and poster displays targeting students from Grade 10 upwards.",
+    "href": "",
+    "id": "project-02",
+    "year": "2025",
+    "accent": "#f6c453",
+    "code": "02",
+    "sourceImages": [
+      "Banner 253 03.jpg"
+    ],
+    "images": [
+      "/media/projects/banner-253-03.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2025-05-05",
+    "title": "Event Videography (බක්මහ උළෙල 2025)",
+    "description": "A collection of vibrant moments captured during the \"බක්මහ උළෙල 2025\" event, showcasing participants in traditional attire, celebrating cultural unity and togetherness. The videography highlights the joyful atmosphere of this annual celebration, which brings people together for a memorable communal experience",
+    "href": "https://www.youtube.com/watch?v=9hmEK4XXKAI&t=5s",
+    "id": "project-03",
+    "year": "2025",
+    "accent": "#ff4ecd",
+    "code": "03",
+    "sourceImages": [
+      "Videography bakmaha 20225.jpg"
+    ],
+    "images": [
+      "/media/projects/videography-bakmaha-20225.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2024-12-01",
+    "title": "Event Videography (Crowned Queens)",
+    "description": "A celebration of the Princess of Wales College, 91 Batch, featuring a nostalgic batch party. The video showcases old photos from their school days, enhanced with portrait photography and creative lighting techniques, capturing the essence of their memorable journey.",
+    "href": "https://youtu.be/4tqipGD8lFk",
+    "id": "project-04",
+    "year": "2024",
+    "accent": "#ff4ecd",
+    "code": "04",
+    "sourceImages": [
+      "CrownedQueens.webp"
+    ],
+    "images": [
+      "/media/projects/crownedqueens.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2025-01-23",
+    "title": "Event Videography (150th Jubilee Celebration 2025)",
+    "description": "A collection of dynamic and captivating moments captured during the 150th Jubilee Celebration at St. Sebastian's Church, Moratuwa. The videography showcases the solemn procession and final blessing, emphasizing the rich cultural and spiritual significance of the event. With focus on the church’s beautiful architecture and the statue of St. Sebastian, this event represents a momentous occasion for the community.",
+    "href": "https://youtu.be/yco0w90Bz-I",
+    "id": "project-05",
+    "year": "2025",
+    "accent": "#ff4ecd",
+    "code": "05",
+    "sourceImages": [
+      "150th Jubilee Celebration 2025.webp"
+    ],
+    "images": [
+      "/media/projects/150th-jubilee-celebration-2025.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2024-10-15",
+    "title": "Event Videography (Wedding Surprise Dance Disni & Dilanka Wedding)",
+    "description": "This video captures the fun and unforgettable surprise dance performance at Disni and Dilanka’s wedding. It was a special moment during the celebration where friends and family joined together to surprise the couple with a lively and heartwarming dance.",
+    "href": "https://youtu.be/yco0w90Bz-I",
+    "id": "project-06",
+    "year": "2024",
+    "accent": "#ff4ecd",
+    "code": "06",
+    "sourceImages": [
+      "Wedding Surprise Dance Disni & Dilanka Wedding.jpg"
+    ],
+    "images": [
+      "/media/projects/wedding-surprise-dance-disni-dilanka-wedding.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2024-05-29",
+    "title": "Event Videography (HNB වෙසක් කලාපය 2024)",
+    "description": "This video project was created during my internship at the HNB Dehiwala Branch for the Vesak Kalapaya 2024 celebration. I captured all the special moments and spiritual highlights of the event through video, including beautiful decorations, Vesak lanterns, and the Bakthi Gee (devotional songs) performed by the dehiwela branch staff. The full video was filmed, edited, and produced by me, showcasing the cultural and religious significance of Vesak. Through smooth transitions, traditional music, and focused storytelling, I aimed to bring out the peaceful and festive mood of the celebration at the HNB Head Office.",
+    "href": "https://youtu.be/yco0w90Bz-I",
+    "id": "project-07",
+    "year": "2024",
+    "accent": "#ff4ecd",
+    "code": "07",
+    "sourceImages": [
+      "HNB WESAK2024.webp"
+    ],
+    "images": [
+      "/media/projects/hnb-wesak2024.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2023-08-12",
+    "title": "Event Videography (Dileepa & Tharindu's Church Wedding Day)",
+    "description": "This is a wedding highlight video I created for Dileepa and Tharindu using photographs captured on their special day at St. Joseph's Church, Moratuwa. The video was designed to reflect the beautiful moments of their church ceremony, from their entrance and blessings to the joyful smiles shared with loved ones. I arranged the photos with smooth transitions, meaningful background music, and effects to create an emotional and memorable visual story. This project shows how still images can be transformed into a lively and touching video experience.",
+    "href": "https://youtu.be/ixzpTfnw1x4",
+    "id": "project-08",
+    "year": "2023",
+    "accent": "#ff4ecd",
+    "code": "08",
+    "sourceImages": [
+      "Dileepatharindu.jpg"
+    ],
+    "images": [
+      "/media/projects/dileepatharindu.webp"
+    ]
+  },
+  {
+    "category": "Software Development",
+    "date": "2025-03-02",
+    "title": "Point of Sale System (POS System)",
+    "description": "In my 4th semester of the HND in Computing at IAICampus, I developed a Point of Sale (POS) system for a retail business, focusing on inventory management, sales tracking, and reporting. I designed a user-friendly interface for both administrators and cashiers, ensuring efficient transactions and data handling, while incorporating automated testing for reliability.",
+    "href": "https://rakindufernando.lk/pos_system.html",
+    "id": "project-09",
+    "year": "2025",
+    "accent": "#8b5cf6",
+    "code": "09",
+    "sourceImages": [
+      "Cashierpage.jpg"
+    ],
+    "images": [
+      "/media/projects/cashierpage.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2023-12-31",
+    "title": "The Cover for the 2024 Parish Calendar",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed the cover for the 2024 parish calendar. The design features a spiritual theme with imagery of the Sacred Hearts of Jesus and Mary, complemented by the iconic church buildings of St. Sebastian’s Church, Moratuwa, and St. Joseph’s Church, Uyana. This calendar cover aims to reflect the beauty and significance of our parish’s community and faith.",
+    "href": "",
+    "id": "project-10",
+    "year": "2023",
+    "accent": "#f6c453",
+    "code": "10",
+    "sourceImages": [
+      "Calendar for the year 2024.jpg"
+    ],
+    "images": [
+      "/media/projects/calendar-for-the-year-2024.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2023-12-31",
+    "title": "Poster for The Crowned Queens Batch Party",
+    "description": "This is a vibrant event poster I designed for Crowned Queens 2024, organized by the 91 Batch of Princess of Wales' College. The event is set to take place on November 30th at Ramadia Ranmal Holiday Resort, with a formal dress code in black or blue. The poster features a royal theme with a golden crown and glowing effects to reflect the elegance and celebratory spirit of the event. I carefully selected the fonts, layout, and color palette to create a bold and festive impression while ensuring all event details are clearly communicated. This design captures the essence of unity, celebration, and prestige that the batch reunion represents.",
+    "href": "",
+    "id": "project-11",
+    "year": "2023",
+    "accent": "#f6c453",
+    "code": "11",
+    "sourceImages": [
+      "Crowned Queens POSTER.jpg"
+    ],
+    "images": [
+      "/media/projects/crowned-queens-poster.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2025-01-10",
+    "title": "150th Jubilee Celebration 2025 (Paper Add)",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed this newspaper advertisement for the 150th Jubilee Celebration of St. Sebastian’s Church, Moratuwa, which was officially published in the Pradeepaya Catholic newspaper in Sri Lanka. The design emphasizes the spiritual and historical significance of the event, featuring the statue of St. Sebastian prominently set against the church's grand architecture. It outlines key moments of the celebration, including the Novena, Solemn Vespers, and the Jubilee Festive High Mass, presided over by leading clergy. This layout was created to inform, inspire, and reflect the deep faith and unity of the parish community.",
+    "href": "",
+    "id": "project-12",
+    "year": "2025",
+    "accent": "#f6c453",
+    "code": "12",
+    "sourceImages": [
+      "St. Sebastian's Church Moratuwa 150th English corrected.jpg",
+      "St. Sebastian's Church Moratuwa 150th Sinhala.jpg"
+    ],
+    "images": [
+      "/media/projects/st-sebastian-s-church-moratuwa-150th-english-corrected.webp",
+      "/media/projects/st-sebastian-s-church-moratuwa-150th-sinhala.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2024-01-10",
+    "title": "149th Annual Feast of St. Sebastian’s Church, Moratuwa. (Paper Add)",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed this newspaper advertisement for the 149th Annual Feast of St. Sebastian’s Church, Moratuwa. This artwork was published in the Pradeepaya Catholic newspaper in Sri Lanka to announce and promote the sacred festivities. The design features the statue of St. Sebastian within the church interior, highlighting the solemn and devotional atmosphere of the celebration. It includes key event details such as the Novena, Solemn Vespers, and Feast Day Holy Masses, with visual emphasis on dates, times, and presiding clergy. The layout aims to reflect the parish’s rich tradition and spiritual devotion while ensuring clarity and visual impact for readers.",
+    "href": "",
+    "id": "project-13",
+    "year": "2024",
+    "accent": "#f6c453",
+    "code": "13",
+    "sourceImages": [
+      "St. Sebastian’s Church - 0222.jpg",
+      "St. Sebastian’s Church0111.jpg"
+    ],
+    "images": [
+      "/media/projects/st-sebastians-church-0222.webp",
+      "/media/projects/st-sebastians-church0111.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2024-04-20",
+    "title": "The Annual Feast 2024 of St. Joseph’s Church, Uyana, Moratuwa. (Paper Add)",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed this newspaper advertisement for the Annual Feast 2024 of St. Joseph’s Church, Uyana, Moratuwa. Published in the Pradeepaya Catholic newspaper in Sri Lanka, the design features the statue of Saint Joseph holding the child Jesus, set against the backdrop of the church's sanctuary and grotto. It highlights the spiritual significance of the feast with key information such as the Novena, Vespers Service, Festive High Mass, and Feast Day Procession. The layout was carefully crafted to reflect the solemnity of the celebration, while inviting the faithful to seek the intercession of Saint Joseph and participate in this sacred occasion with devotion.",
+    "href": "",
+    "id": "project-14",
+    "year": "2024",
+    "accent": "#f6c453",
+    "code": "14",
+    "sourceImages": [
+      "Paper Add SJC English 2024.jpg",
+      "Paper Add SJC Sinhala 2024.jpg"
+    ],
+    "images": [
+      "/media/projects/paper-add-sjc-english-2024.webp",
+      "/media/projects/paper-add-sjc-sinhala-2024.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2024-08-28",
+    "title": "Invitation card of Dila’s 21st",
+    "description": "I designed this elegant invitation card for Dila’s 21st birthday celebration, blending a modern black-and-gold theme with a touch of festive sparkle to reflect the significance of this milestone event. The layout highlights the key event details including date, time, venue, dress code, and RSVP while the use of stylish typography and balloon elements creates a celebratory and refined atmosphere. This invitation was crafted to set the tone for an unforgettable evening at Hotel Gangadhari, Panadura, with family and friends gathering to mark Dila’s special day.",
+    "href": "",
+    "id": "project-15",
+    "year": "2024",
+    "accent": "#f6c453",
+    "code": "15",
+    "sourceImages": [
+      "Dila Invitation.jpg"
+    ],
+    "images": [
+      "/media/projects/dila-invitation.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2023-08-01",
+    "title": "Wedding invitation card of Dileepa and Tharindu",
+    "description": "I designed this elegant wedding invitation card for Dileepa and Tharindu, combining a soft floral theme with classical decorative elements to reflect the warmth and grace of their union. The design gently communicates the heartfelt request for presence at their wedding mass held at St. Joseph’s Church, Uyana, on 4th August 2023, and the reception on 7th August at Green Court Hotel, Homagama. With its subtle color palette, refined typography, and ornamental flourishes, the card captures the couple’s joyful spirit and traditional values, creating a timeless piece to mark the beginning of their new journey together.",
+    "href": "",
+    "id": "project-16",
+    "year": "2023",
+    "accent": "#f6c453",
+    "code": "16",
+    "sourceImages": [
+      "Wedding invitation.jpg"
+    ],
+    "images": [
+      "/media/projects/wedding-invitation.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2020-09-19",
+    "title": "The official logo of ReD Productions",
+    "description": "I designed the official logo for ReD Productions, our creative YouTube channel focused on video editing, storytelling, and entertainment content. The design features a bold, stylized skull with headphones engulfed in flames, symbolizing energy, intensity, and passion for digital creation. The use of red, yellow, and black enhances its modern and striking appearance, while the strong typography reinforces the brand’s bold identity. This logo was crafted to reflect the unique personality and visual edge of ReD Productions, representing the dynamic work we produce as a creative team.",
+    "href": "",
+    "id": "project-17",
+    "year": "2020",
+    "accent": "#f6c453",
+    "code": "17",
+    "sourceImages": [
+      "ReD Productions LOGO.png"
+    ],
+    "images": [
+      "/media/projects/red-productions-logo.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2023-09-19",
+    "title": "The official logo of the HNB Dehiwala Branch Sports Fiesta 2023",
+    "description": "I designed this official logo for the HNB Dehiwala Branch Sports Fiesta 2023, incorporating the branch ID “093” as the central design element. The bold numeric design is creatively fused with a stylized cricket ball, symbolizing athletic energy, unity, and the spirit of competition. The clean black-and-white color scheme gives it versatility for use across both digital and print platforms. This logo was crafted to represent the identity and pride of HNB Dehiwala (Branch 093) during the annual sports event, celebrating teamwork, enthusiasm, and corporate spirit.",
+    "href": "",
+    "id": "project-18",
+    "year": "2023",
+    "accent": "#f6c453",
+    "code": "18",
+    "sourceImages": [
+      "093.png"
+    ],
+    "images": [
+      "/media/projects/093.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2020-12-29",
+    "title": "The official logo of RaAKI STUDIOS",
+    "description": "I designed this official logo for Raki Studios, my personal photography and creative brand. The bold \"R\" mark, rendered in a sleek red gradient with a crown element, symbolizes creativity, leadership, and excellence in visual storytelling. The crown represents the premium quality and pride I bring to every project, while the strong red and black contrast enhances brand recognition and visual impact. The sharp lines and elegant typography express the modern, confident identity of Raki Studios and its focus on capturing meaningful moments with clarity and style.",
+    "href": "",
+    "id": "project-19",
+    "year": "2020",
+    "accent": "#f6c453",
+    "code": "19",
+    "sourceImages": [
+      "RAKI STUDIOS.png"
+    ],
+    "images": [
+      "/media/projects/raki-studios.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2024-10-12",
+    "title": "Poster of the Feast of All Saints",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed this commemorative poster for the Feast of All Saints. The visual composition features a reverent collection of saintly figures with radiant halos, set against a celestial background that evokes the glory of heaven. The bold typography of the word \"SAINTS\" draws attention to the central theme, while the message below offers a spiritual reflection on the importance of seeking the intercession of the saints. Created for community sharing on the church’s platforms, this design aims to inspire faith and devotion by honoring the legacy of holiness celebrated on All Saints Day.",
+    "href": "",
+    "id": "project-20",
+    "year": "2024",
+    "accent": "#f6c453",
+    "code": "20",
+    "sourceImages": [
+      "465112866_535715255855159_5462624802242375907_n.jpg"
+    ],
+    "images": [
+      "/media/projects/465112866-535715255855159-5462624802242375907-n.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2023-08-06",
+    "title": "Poster to promote Car Wash Fundraiser",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed this vibrant poster to promote Car Wash Fundraiser held on August 6th, 2023. The design features a striking yellow sports car surrounded by animated soap bubbles, reflecting the event’s fun and energetic atmosphere. Bold, playful typography was used to draw attention to key details such as the date, time, venue, and price, ensuring clear communication to the parish community. This poster was created to attract participation and support for our media initiatives while maintaining a clean, engaging, and visually appealing layout aligned with our parish’s youthful spirit.",
+    "href": "",
+    "id": "project-21",
+    "year": "2023",
+    "accent": "#f6c453",
+    "code": "21",
+    "sourceImages": [
+      "new car wash 02.jpg"
+    ],
+    "images": [
+      "/media/projects/new-car-wash-02.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2024-12-20",
+    "title": "Christmas Poster 2024",
+    "description": "As the editor in the St. Joseph’s Church Uyana Moratuwa Media Unit, I designed this festive poster to announce our 2024 Christmas celebrations on December 24th and 25th. The artwork features a warm nativity illustration set against a tranquil midnight-blue backdrop, with gold-accented Sinhala lettering that captures the joyous spirit of the season. Bold, elegant typography highlights key detailsservice times, event dates, and live-stream links ensuring clear communication to our parish community across social media. This poster was crafted to invite participation and viewership for our media initiatives while maintaining a clean, engaging, and visually appealing layout aligned with our parish’s festive spirit.",
+    "href": "",
+    "id": "project-22",
+    "year": "2024",
+    "accent": "#f6c453",
+    "code": "22",
+    "sourceImages": [
+      "Christmas Poster 2024 Edited.jpg"
+    ],
+    "images": [
+      "/media/projects/christmas-poster-2024-edited.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2025-04-28",
+    "title": "Cover page of The Feast and Vespress Hymn Sheet",
+    "description": "As the editor in the St. Joseph’s Church Uyana Media Unit, I designed this solemn and spiritually themed cover page for the Feast Day and Vespress Hymn Sheet marking the 127th Annual Feast of St. Joseph the Worker. The design combines a sacred stained glass depiction of the Holy Family with a striking image of St. Joseph and the Child Jesus, set against the backdrop of our parish church. The left panel evokes deep reverence with scriptural inspiration and a call to prayer, while the right panel highlights the majestic statue of our patron saint, enriched with golden hues and radiant halos to emphasize sanctity. This cover was created to set a devotional tone for the celebration and guide the faithful in heartfelt worship during the feast day liturgy.",
+    "href": "",
+    "id": "project-23",
+    "year": "2025",
+    "accent": "#f6c453",
+    "code": "23",
+    "sourceImages": [
+      "Cover of Hymn Sheet Vespress.jpg",
+      "Cover of Hymn Sheet Feast Day.jpg"
+    ],
+    "images": [
+      "/media/projects/cover-of-hymn-sheet-vespress.webp",
+      "/media/projects/cover-of-hymn-sheet-feast-day.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2025-07-15",
+    "title": "3D Chessboard Design – Autodesk 3ds Max",
+    "description": "This 3D modelling project showcases a photorealistic chessboard and full chess set created entirely in Autodesk 3ds Max. Starting from a simple Plane blueprint, I used Line and Box primitives to construct the board layout. Each tile was refined with Bevel modifiers to achieve clean, professional edges. The chess pieces pawns, bishops, knights, rooks, queens, and kings were modeled using Lathe modifiers, allowing for smooth and symmetrical surfaces. To enhance realism, I strategically positioned Omni lights to create dynamic shadows and highlights that bring depth to the scene. The result is a polished, animation-ready chessboard designed for use in games, visualizations, or interactive 3D environments. This project reflects my skills in 3D modeling, lighting, and detail-oriented design.",
+    "href": "",
+    "id": "project-24",
+    "year": "2025",
+    "accent": "#f6c453",
+    "code": "24",
+    "sourceImages": [
+      "Chessboard (1).jpg",
+      "Chessboard (2).jpg",
+      "Chessboard (3).jpg",
+      "Chessboard (4).jpg",
+      "Chessboard (5).jpg",
+      "Chessboard (6).jpg",
+      "Chessboard (7).jpg",
+      "Chessboard (8).jpg",
+      "Chessboard (9).jpg",
+      "Chessboard (10).jpg"
+    ],
+    "images": [
+      "/media/projects/chessboard-1.webp",
+      "/media/projects/chessboard-2.webp",
+      "/media/projects/chessboard-3.webp",
+      "/media/projects/chessboard-4.webp",
+      "/media/projects/chessboard-5.webp",
+      "/media/projects/chessboard-6.webp",
+      "/media/projects/chessboard-7.webp",
+      "/media/projects/chessboard-8.webp",
+      "/media/projects/chessboard-9.webp",
+      "/media/projects/chessboard-10.webp"
+    ]
+  },
+  {
+    "category": "Videography",
+    "date": "2025-07-27",
+    "title": "Architectural Videography (St. Joseph's Church Uyana Moratuwa)",
+    "description": "This video production captures the timeless beauty and architectural elegance of St. Joseph's Church, Uyana, Moratuwa. Filmed using a GoPro Hero 12, the footage offers dynamic perspectives and crisp visuals that showcase both the exterior and surrounding scenery. The project was produced by the Media Unit of St. Joseph's Church, with all editing and color grading meticulously handled by me to bring out the warm tones, fine details, and serene ambiance of this historic landmark.",
+    "href": "https://www.youtube.com/watch?v=Xn4UksdznjQ",
+    "id": "project-25",
+    "year": "2025",
+    "accent": "#ff4ecd",
+    "code": "25",
+    "sourceImages": [
+      "SJCVideo.jpg"
+    ],
+    "images": [
+      "/media/projects/sjcvideo.webp"
+    ]
+  },
+  {
+    "category": "Photography",
+    "date": "2025-08-31",
+    "title": "Photography Portfolio",
+    "description": "A curated showcase of my best photography projects, including portraits, events, and creative shoots. Explore the dedicated photography page for full collections and stories behind the lens.",
+    "href": "https://rakindufernando.lk/photography_rakistudios.html",
+    "id": "project-26",
+    "year": "2025",
+    "accent": "#ff6b4a",
+    "code": "26",
+    "sourceImages": [
+      "PhotographyPreview.jpg"
+    ],
+    "images": [
+      "/media/projects/photographypreview.webp"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "date": "2025-06-22",
+    "title": "Birthday Tribute Poster",
+    "description": "As the editor in the St. Joseph’s Church Uyana Moratuwa Media Unit, I designed this heartfelt birthday tribute poster to honor Rev. Fr. Gyom Nonis on his special day. The design features a dignified blend of portraits that reflect his calm, compassionate presence, set against a soft, radiant background to symbolize spiritual grace. Golden script typography was used to convey celebration, while the message below expresses our community’s deep appreciation for his tireless service and pastoral care. This tribute was created to share our blessings and gratitude through a visually respectful and uplifting composition, in line with the reverence and warmth of our parish community.",
+    "href": "",
+    "id": "project-27",
+    "year": "2025",
+    "accent": "#f6c453",
+    "code": "27",
+    "sourceImages": [
+      "Rev Fr Gyom Nonis Birthday.jpg"
+    ],
+    "images": [
+      "/media/projects/rev-fr-gyom-nonis-birthday.webp"
+    ]
+  }
+]
