@@ -1,108 +1,62 @@
-# vinext-starter
+# Rakindu Fernando Portfolio
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+The complete portfolio, with a five-category homepage gateway and dedicated project collections. The uploaded Next.js App Router structure is preserved. The existing Vinext and Vite runtime remains in place, with React 19, TypeScript, GSAP, ScrollTrigger and Three.js.
 
-## Prerequisites
+## Run in VS Code
 
-- Node.js `>=22.13.0`
-- Linux with `flock`, `curl`, and GNU `timeout`
+1. Install Node.js 22.13 or newer.
+2. Extract this ZIP and open the `rakindufernandoupdatedwebpage-main` folder in VS Code.
+3. Open the terminal in that folder and run `npm ci`.
+4. Run `npm run dev`.
+5. Open the local address printed in the terminal.
 
-## Sites Lifecycle
+These commands work in a normal Windows, macOS or Linux terminal. Do not use Live Server or open the TSX files directly in a browser. Dependencies and build output are intentionally not bundled. The package manifest and lockfile install the exact required dependencies.
 
-The Sites lifecycle CLI runs the locked dependency install before returning this checkout. Edit the source under `app/`, then checkpoint when a coherent milestone is ready to inspect or share. The remote Sites builder runs `npm run build` against the pushed commit. Do not repeat install or build as a normal pre-checkpoint step.
+## Production and validation
 
-This starter does not use `wrangler.jsonc`.
+- `npm run build` creates the production application.
+- `npm start` serves the production build.
+- `npm run lint` runs ESLint.
+- `npm run typecheck` checks both application and Cloudflare Worker types.
+- `npm test` builds the application and runs the production route, data, metadata, 404 and reduced-motion checks.
 
-`install:ci` is intentionally a single, non-retrying `npm ci`. It refuses a concurrent install for the same project, consumes a matching image-seeded npm cache with `--prefer-offline` while retaining registry fallback for a missing cache object, otherwise downloads and verifies the complete vinext tarball recorded in `package-lock.json`, limits npm to one socket, and terminates a stalled install. `build` applies a short timeout and then validates the Sites artifact. These helpers target Linux and use GNU `timeout`; they are not native macOS scripts.
+## Project data and routes
 
-Scripts that need writable project-scoped home, npm, XDG, and temporary paths use `scripts/sites-env.sh`. The `dev` and `start` scripts honor the caller's runtime environment and keep Wrangler logs inside the checkout. The generated `.sites-runtime/` directory is disposable and ignored by Git.
+`app/portfolio-data.json` is the only project-data source. All 27 original records are unchanged. Edit this file to add or update projects. Counts and collections update automatically from the category values.
 
-## Included Shape
+| Route | Exact data category |
+| --- | --- |
+| `/work/ui-ux-design` | `UI/UX Design` |
+| `/work/software-development` | `Software Development` |
+| `/work/graphic-design` | `Graphic Design` |
+| `/work/videography` | `Videography` |
+| `/work/photography` | `Photography` |
 
-- edit site code under `app/`
-- `app/chatgpt-auth.ts` provides optional dispatch-owned ChatGPT sign-in helpers
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/index.ts` reads the D1 binding from the Cloudflare Worker environment
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+`app/lib/portfolio.ts` maps routes to categories and holds the category introduction text and cover-project IDs. Cover images are resolved from the original data. No project descriptions, image paths or counts are duplicated in this configuration. `/work` returns to the homepage Work section. Invalid routes return HTTP 404.
 
-## Workspace Auth Headers
+## Main files
 
-OpenAI workspace sites can read the current user's email from
-`oai-authenticated-user-email`.
+- `app/page.tsx` retains the original personal content and homepage sections.
+- `app/components/CategoryGateway.tsx` displays the five homepage category sections.
+- `app/work/[category]/page.tsx` selects each collection and supplies SEO metadata.
+- `app/components/CategoryExperience.tsx` displays the category hero and project layouts.
+- `app/components/ProjectGallery.tsx` provides the accessible project dialog, thumbnails, arrows and touch swipes.
+- `app/components/PortfolioShell.tsx`, `Navigation.tsx` and `SiteLink.tsx` provide consistent navigation and page framing.
+- `app/components/usePortfolioMotion.ts` and `Scene.tsx` manage motion and cleanup.
+- `app/globals.css` holds the visual system and responsive styles.
+- `app/fonts.css` and `public/fonts` serve the original Geist typefaces locally.
+- `public/media` contains every original optimized project image, portrait and logo.
 
-SIWC-authenticated workspace sites may also receive
-`oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty
-`name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by
-`oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
+## Galleries and accessibility
 
-Treat the full name as optional and fall back to email when it is absent:
+Open a project using its image or Explore project button. Use the thumbnails, previous and next buttons, arrow keys or a horizontal touch swipe to move between images. Escape, Close or the backdrop closes the gallery. Browser Back closes an opened project and Forward reopens it. A project can also be opened directly using its original ID as the category URL fragment.
 
-```tsx
-import { headers } from "next/headers";
+The native dialog traps keyboard focus, makes the page behind it inert and returns focus on close. Reduced-motion preference disables the 3D scene and GSAP animations. Touch layouts do not depend on hover effects. Animation and scene listeners are removed when their page unmounts.
 
-export default async function Home() {
-  const requestHeaders = await headers();
-  const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-      "percent-encoded-utf-8"
-      ? decodeURIComponent(encodedFullName)
-      : null;
+## Preview
 
-  const displayName = fullName ?? email;
-  // ...
-}
-```
+Open `preview/index.html` to view captured desktop and mobile screenshots without installing dependencies. Run the app to experience the live scrolling, hover, parallax and gallery interactions.
 
-## Optional Dispatch-Owned ChatGPT Sign-In
+The main accent is electric blue `#00F0FF`. Developer terminal visuals, a restrained node field, scroll depth, pointer perspective and magnetic controls extend the original design. Use the Pause motion control or your system reduced-motion preference to stop animation.
 
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs
-optional or required ChatGPT sign-in:
-
-- Use `getChatGPTUser()` for optional signed-in UI.
-- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send
-  anonymous visitors through Sign in with ChatGPT.
-- Use `chatGPTSignInPath(returnTo)` and `chatGPTSignOutPath(returnTo)` for
-  browser links or actions.
-- Pass a same-origin relative `returnTo` path for the destination after sign-in
-  or sign-out. The helper validates and safely encodes it.
-- Mark protected pages with `export const dynamic = "force-dynamic"` because
-  they depend on per-request identity headers.
-
-Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the
-OAuth cookies, and identity header injection. Do not implement app routes for
-those reserved paths. Routes that do not import and call the helper remain
-anonymous-compatible.
-
-SIWC establishes identity only; it does not prove workspace membership. Use the
-Sites hosting platform's access policy controls for workspace-wide restrictions,
-or enforce explicit server-side membership or allowlist checks.
-
-Use SIWC for account pages, user-specific dashboards, saved records, and write
-actions tied to the current ChatGPT user. Leave public content anonymous.
-
-## Diagnostic Commands
-
-- `npm run install:ci`: perform the one bounded lockfile install
-- `npm run dev`: start the Vite/Vinext development server
-- `npm run build`: build and validate the deployable Sites artifact
-- `npm run start`: start the built Vinext application
-- `npm test`: build, validate, and verify the rendered development-preview metadata
-- `npm run validate:artifact`: recheck an existing artifact's manifest and ESM `default.fetch` export
-- `npm run db:generate`: generate Drizzle migrations after schema changes
-
-Use build and validation commands for targeted diagnosis after a remote failure, not as part of the normal checkpoint path.
-
-The timeout defaults can be overridden for a controlled canary with `SITES_INSTALL_TIMEOUT`, `SITES_INSTALL_KILL_AFTER`, `SITES_BUILD_TIMEOUT`, and `SITES_BUILD_KILL_AFTER`. A timeout fails the command; the helpers never retry an unchanged install or build.
-
-## Learn More
-
-- [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+See `SEO_SETUP.md` for canonical domain configuration, Google Search Console verification and Cloudflare Workers deployment. See `VALIDATION.md` for the checks performed.

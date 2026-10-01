@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rakindu Fernando portfolio preview</title>
+  <style>
+    :root { color-scheme: dark; --blue: #1b86ff; --ink: #05070b; --muted: #a5afc2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 48px 6vw 80px; color: #f4f8ff; background: radial-gradient(circle at 75% 0%, rgba(27,134,255,.18), transparent 34%), var(--ink); font: 16px/1.6 Inter, ui-sans-serif, system-ui, sans-serif; }
+    main { max-width: 1320px; margin: auto; }
+    .eyebrow { color: var(--blue); font: 700 11px/1.2 ui-monospace, monospace; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { max-width: 900px; margin: 18px 0 14px; font-size: clamp(42px, 8vw, 100px); line-height: .95; letter-spacing: -.07em; }
+    p { max-width: 660px; color: var(--muted); }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0 46px; }
+    .meta span { padding: 7px 12px; border: 1px solid rgba(27,134,255,.35); border-radius: 999px; color: #cfe3ff; background: rgba(27,134,255,.08); font: 700 11px ui-monospace, monospace; }
+    .preview { margin: 30px 0 46px; }
+    .preview h2 { margin: 0 0 14px; font-size: 26px; }
+    figure { margin: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.16); background: #0b1019; box-shadow: 0 24px 70px rgba(0,0,0,.42); }
+    img { display: block; width: 100%; height: auto; }
+    figcaption { padding: 12px 16px 15px; color: var(--muted); font-size: 13px; }
+    ul { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px 28px; padding: 0; list-style: none; }
+    li { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,.12); color: #cfe3ff; }
+    code { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Electric blue portfolio update</div>
+    <h1>Five perspectives.<br><em>One creative mind.</em></h1>
+    <p>This capture previews the new homepage category gateway and the editorial category experience. The live app adds GSAP and ScrollTrigger reveals, Three.js atmosphere, responsive layouts, project galleries and reduced motion support.</p>
+    <div class="meta"><span>27 projects</span><span>5 dynamic collections</span><span>electric blue #1b86ff</span><span>dark futuristic system</span></div>
+    <section class="preview">
+      <h2>Homepage Work gateway</h2>
+      <figure><img src="homepage-categories.jpg" alt="Homepage Work section showing five electric blue portfolio category portals"><figcaption>Homepage Work section with five category portals, dynamic counts and cover imagery.</figcaption></figure>
+    </section>
+    <section class="preview">
+      <h2>Graphic Design category</h2>
+      <figure><img src="graphic-design-category.jpg" alt="Graphic Design category page hero with large editorial typography and chessboard imagery"><figcaption>Category hero with editorial typography, project count, cover image, parallax treatment and scroll cue.</figcaption></figure>
+    </section>
+    <section>
+      <h2>Category routes</h2>
+      <ul>
+        <li><code>/work/ui-ux-design</code> · 1 project</li>
+        <li><code>/work/software-development</code> · 1 project</li>
+        <li><code>/work/graphic-design</code> · 17 projects</li>
+        <li><code>/work/videography</code> · 7 projects</li>
+        <li><code>/work/photography</code> · 1 project</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
