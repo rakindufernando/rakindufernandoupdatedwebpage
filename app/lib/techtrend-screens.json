@@ -1,0 +1,269 @@
+{
+  "source": {
+    "repository": "rakindufernando/rakindufernando-old-portfolio",
+    "commit": "88fde69f3a98ab8837b93162602a2aecabc059f6",
+    "page": "ecommerce-app.html",
+    "pageSha": "332542553528fe67455310c90403c621f942f05b"
+  },
+  "screens": [
+    {
+      "id": "screen-01",
+      "label": "Loading",
+      "src": "/media/techtrend/screen-01.jpg",
+      "original": "iPhone 16 Pro Max - 1.jpg",
+      "sha": "2d33953ce590ce4a121aa8a477046005a98ec8fd",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-02",
+      "label": "Welcome",
+      "src": "/media/techtrend/screen-02.jpg",
+      "original": "iPhone 16 Pro Max - 2.jpg",
+      "sha": "2b927b374723b849a7ee68bb92988b24bd056e26",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-03",
+      "label": "Login",
+      "src": "/media/techtrend/screen-03.jpg",
+      "original": "iPhone 16 Pro Max - 7.jpg",
+      "sha": "892e465095b9733afe7cc421c4c7e3198d9c8a02",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-04",
+      "label": "Login Success",
+      "src": "/media/techtrend/screen-04.jpg",
+      "original": "iPhone 16 Pro Max - 23.jpg",
+      "sha": "3310a21ca3f50ad3c9f143805dd4711861698766",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-05",
+      "label": "Password Reset",
+      "src": "/media/techtrend/screen-05.jpg",
+      "original": "iPhone 16 Pro Max - 6.jpg",
+      "sha": "ac023ac7473949f2e27c07d655f121a6fbe760c8",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-06",
+      "label": "Signup",
+      "src": "/media/techtrend/screen-06.jpg",
+      "original": "iPhone 16 Pro Max - 5.jpg",
+      "sha": "4a10fc36493f4658967f82befa94b7ccb7fdf497",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-07",
+      "label": "Signup Form",
+      "src": "/media/techtrend/screen-07.jpg",
+      "original": "iPhone 16 Pro Max - 16.jpg",
+      "sha": "1951a10ea8f20cdba14e73ba6ccd1ddd811b07f6",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-08",
+      "label": "Google Login",
+      "src": "/media/techtrend/screen-08.jpg",
+      "original": "iPhone 16 Pro Max - 27.jpg",
+      "sha": "f1bbccb421c5638de834007e08fc51b22b4c6716",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-09",
+      "label": "Facebook Login",
+      "src": "/media/techtrend/screen-09.jpg",
+      "original": "iPhone 16 Pro Max - 29.jpg",
+      "sha": "32e177ae01a9822a5a383b066d82d9aa7f1ae7a1",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-10",
+      "label": "Apple Login",
+      "src": "/media/techtrend/screen-10.jpg",
+      "original": "iPhone 16 Pro Max - 32.jpg",
+      "sha": "8f035f8635e52c587019a61f783743aa79ed4e16",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-11",
+      "label": "Home",
+      "src": "/media/techtrend/screen-11.jpg",
+      "original": "iPhone 16 Pro Max - 4.jpg",
+      "sha": "7465dbad55166a0a54738858376d4427d97118a4",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-12",
+      "label": "Search",
+      "src": "/media/techtrend/screen-12.jpg",
+      "original": "iPhone 16 Pro Max - 34.jpg",
+      "sha": "937558cf048d861cf10447d8e724d3dff5f497b5",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-13",
+      "label": "Categories",
+      "src": "/media/techtrend/screen-13.jpg",
+      "original": "iPhone 16 Pro Max - 35.jpg",
+      "sha": "9f6d7ad5920387db96c2d3809dacf5a29b504834",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-14",
+      "label": "QR Scanner",
+      "src": "/media/techtrend/screen-14.jpg",
+      "original": "iPhone 16 Pro Max - 17.jpg",
+      "sha": "ffcd0b30c86be7c6e9efa105cad1268399915070",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-15",
+      "label": "Notifications",
+      "src": "/media/techtrend/screen-15.jpg",
+      "original": "iPhone 16 Pro Max - 14.jpg",
+      "sha": "b26b0b5309bde929ac939f839915c90eda23820d",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-16",
+      "label": "Messages",
+      "src": "/media/techtrend/screen-16.jpg",
+      "original": "iPhone 16 Pro Max - 15.jpg",
+      "sha": "31c6f8dfd5f36fa49d9d6ee5e0bc034dc09b1518",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-17",
+      "label": "Account",
+      "src": "/media/techtrend/screen-17.jpg",
+      "original": "iPhone 16 Pro Max - 8.jpg",
+      "sha": "8d123898f387ea4086c291004807ead4582253c0",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-18",
+      "label": "Settings",
+      "src": "/media/techtrend/screen-18.jpg",
+      "original": "iPhone 16 Pro Max - 21.jpg",
+      "sha": "82c5c5d673a92833f8320cfc42706d48064364a5",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-19",
+      "label": "Cart",
+      "src": "/media/techtrend/screen-19.jpg",
+      "original": "iPhone 16 Pro Max - 12.jpg",
+      "sha": "04bdc4ac31ca501967f9e94cbe35d0f2243a4f22",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-20",
+      "label": "Checkout",
+      "src": "/media/techtrend/screen-20.jpg",
+      "original": "iPhone 16 Pro Max - 11.jpg",
+      "sha": "2310bb5ef75d77cea74961c7219c993290b69def",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-21",
+      "label": "Payment Loading",
+      "src": "/media/techtrend/screen-21.jpg",
+      "original": "iPhone 16 Pro Max - 37.jpg",
+      "sha": "196417d845a9f50e6b7102aa0f6a82c48985e810",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-22",
+      "label": "Payment Success",
+      "src": "/media/techtrend/screen-22.jpg",
+      "original": "iPhone 16 Pro Max - 22.jpg",
+      "sha": "2b35f4ba210e77e07de39668969688a743449ab5",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-23",
+      "label": "Order Confirmation and Status",
+      "src": "/media/techtrend/screen-23.jpg",
+      "original": "iPhone 16 Pro Max - 18.jpg",
+      "sha": "93fb5ececa1d0f68b6617f9bac0201484230265e",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-24",
+      "label": "Order Cancellation",
+      "src": "/media/techtrend/screen-24.jpg",
+      "original": "iPhone 16 Pro Max - 19.jpg",
+      "sha": "4cf48649786ef6ab3a76063edd30a175f1ec669f",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-25",
+      "label": "Order Tracking",
+      "src": "/media/techtrend/screen-25.jpg",
+      "original": "iPhone 16 Pro Max - 20.jpg",
+      "sha": "51b3c9a955b0b4afe94512fe4b76e9850f2f70a4",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-26",
+      "label": "Product Screen 01",
+      "src": "/media/techtrend/screen-26.jpg",
+      "original": "iPhone 16 Pro Max - 10.jpg",
+      "sha": "f3ca4fdc2b54334923ece398f9c8b0a2aa2f2bbc",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-27",
+      "label": "Product Screen 02",
+      "src": "/media/techtrend/screen-27.jpg",
+      "original": "iPhone 16 Pro Max - 33.jpg",
+      "sha": "0f854811194884b21170dbc323eaab04d4229796",
+      "width": 440,
+      "height": 956
+    },
+    {
+      "id": "screen-28",
+      "label": "Earphones and Headphones",
+      "src": "/media/techtrend/screen-28.jpg",
+      "original": "iPhone 16 Pro Max - 38.jpg",
+      "sha": "eb0337e6e88a8286c370d090cec8de172bfffbff",
+      "width": 440,
+      "height": 956
+    }
+  ],
+  "cover": {
+    "src": "/media/techtrend/techtrend-cover.jpg",
+    "original": "Tech trend.jpg",
+    "sha": "cb42a329162ff62a414309e75f2f3acc2c6405bd",
+    "width": 600,
+    "height": 300
+  }
+}

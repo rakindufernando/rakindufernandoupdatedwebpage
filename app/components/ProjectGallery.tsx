@@ -3,6 +3,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import type { Project } from "../lib/portfolio";
+import Link from "./SiteLink";
+import { projectDetailPath } from "../lib/project-routes";
 
 export default function ProjectGallery({ project, onClose }: { project: Project; onClose: () => void }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -42,7 +44,7 @@ export default function ProjectGallery({ project, onClose }: { project: Project;
             <div className="gallery-controls"><span aria-live="polite" aria-atomic="true">Image {activeImage + 1} of {count}</span>{count > 1 && <div><button onClick={() => step(-1)} aria-label="Previous image">←</button><button onClick={() => step(1)} aria-label="Next image">→</button></div>}</div>
             {count > 1 && <div className="modal-thumbs" aria-label="Project images">{project.images.map((image, index) => <button key={image} className={activeImage === index ? "active" : ""} onClick={() => setActiveImage(index)} aria-label={`Show image ${index + 1} of ${count}`} aria-pressed={activeImage === index}><img src={image} alt="" loading="lazy" decoding="async" /></button>)}</div>}
           </div>
-          <div className="modal-copy"><span>{project.category} / {project.year}</span><h2 id="project-modal-title">{project.title}</h2><p>{project.description}</p>{project.href && <a className="button button-primary" href={project.href} target="_blank" rel="noopener noreferrer">View project link <span aria-hidden="true">↗</span><span className="sr-only">opens in a new tab</span></a>}</div>
+          <div className="modal-copy"><span>{project.category} / {project.year}</span><h2 id="project-modal-title">{project.title}</h2><p>{project.description}</p>{projectDetailPath(project.id) ? <Link className="button button-primary" href={projectDetailPath(project.id)!}>Explore TechTrend case study</Link> : project.href && <a className="button button-primary" href={project.href} target="_blank" rel="noopener noreferrer">View project link <span aria-hidden="true">↗</span><span className="sr-only">opens in a new tab</span></a>}</div>
         </div>
       </article>
     </dialog>

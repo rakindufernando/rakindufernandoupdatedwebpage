@@ -46,10 +46,10 @@ test('all canonical pages have unique metadata, semantic headings and valid conn
   assert.equal(titles.size,paths.length);assert.equal(descriptions.size,paths.length);
 });
 
-test('sitemap and robots expose exactly the six indexable canonical pages',async()=>{
+test('sitemap and robots expose all seven indexable canonical pages',async()=>{
   const xmlResponse=await render('/sitemap.xml');assert.equal(xmlResponse.status,200);
   const xml=await xmlResponse.text();
-  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),paths.map(p=>config.url+p));
+  assert.deepEqual([...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]),[...paths,'/work/ui-ux-design/techtrend'].map(p=>config.url+p));
   const robots=await render('/robots.txt');assert.equal(robots.status,200);
   const text=await robots.text();assert.match(text,/Allow: \//);assert.ok(text.includes(`Sitemap: ${config.url}/sitemap.xml`));assert.doesNotMatch(text,/Disallow: \/\s/);
 });

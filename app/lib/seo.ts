@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import config from "./site-config.json";
 import { categories, getProjects, type Category } from "./portfolio";
+import { techTrendPath } from "./project-routes";
 
 // Set the production origin here before deploying to a custom domain.
 // Never derive canonical URLs from an untrusted request Host header.
@@ -8,7 +9,7 @@ export const siteUrl = new URL(config.url).origin;
 export const absoluteUrl = (path = "/") => new URL(path, `${siteUrl}/`).href;
 export const homeTitle = "Rakindu Fernando | Software Engineer, UI UX Designer & Creative Designer";
 export const homeDescription = "Explore Rakindu Fernando’s portfolio of software development, UI UX design, graphic design, videography and photography. Based in Sri Lanka.";
-export const publicPages = ["/", ...categories.map(({ slug }) => `/work/${slug}`)];
+export const publicPages = ["/", ...categories.map(({ slug }) => `/work/${slug}`), techTrendPath];
 export const personId = absoluteUrl("/#person");
 export const websiteId = absoluteUrl("/#website");
 

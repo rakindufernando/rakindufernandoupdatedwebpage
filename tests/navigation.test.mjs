@@ -3,7 +3,7 @@ import test from 'node:test';
 import { readFile, stat } from 'node:fs/promises';
 import worker from '../dist/server/index.js';
 
-const paths = ['/', ...['ui-ux-design', 'software-development', 'graphic-design', 'videography', 'photography'].map(slug => `/work/${slug}`)];
+const paths = ['/', ...['ui-ux-design', 'software-development', 'graphic-design', 'videography', 'photography'].map(slug => `/work/${slug}`), '/work/ui-ux-design/techtrend'];
 const env = { ASSETS: { fetch: async () => new Response('Not found', { status: 404 }) } };
 const ctx = { waitUntil() {}, passThroughOnException() {} };
 const render = path => worker.fetch(new Request(`https://portfolio.example${path}`, { headers: { accept: 'text/html' } }), env, ctx);

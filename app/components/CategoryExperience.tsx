@@ -5,6 +5,7 @@ import Link from "./SiteLink";
 import { lazy, Suspense, useEffect, useState } from "react";
 import type { Category, Project } from "../lib/portfolio";
 import { projectCount } from "../lib/format";
+import { projectDetailPath } from "../lib/project-routes";
 import PortfolioShell from "./PortfolioShell";
 const ProjectGallery = lazy(() => import("./ProjectGallery"));
 
@@ -46,12 +47,12 @@ export default function CategoryExperience({ category, projects, cover, nextCate
         {projects.map((project, index) => (
           <article key={project.id} id={project.id} className={`editorial-project layout-${index % 3}`} aria-labelledby={`title-${project.id}`}>
             <div className="editorial-index reveal"><span>{String(index + 1).padStart(2, "0")}</span><span>{project.year}</span></div>
-            <button className="editorial-image media-reveal" data-tilt onClick={() => openProject(project)} aria-label={`View details for ${project.title}`}>
+            {projectDetailPath(project.id) ? <Link className="editorial-image media-reveal" data-tilt href={projectDetailPath(project.id)!} aria-label={`View the TechTrend case study for ${project.title}`}><div className="editorial-image-inner"><img src={project.images[0]} alt={`${project.title}, ${project.category} project from ${project.year}`} loading="lazy" decoding="async" /></div><span className="image-gallery-count">View case study</span><span className="image-open arrow-circle" aria-hidden="true">↗</span></Link> : <button className="editorial-image media-reveal" data-tilt onClick={() => openProject(project)} aria-label={`View details for ${project.title}`}>
               <div className="editorial-image-inner"><img src={project.images[0]} alt={`${project.title}, ${project.category} project from ${project.year}`} loading="lazy" decoding="async" /></div>
               <span className="image-gallery-count">{project.images.length} {project.images.length === 1 ? "image" : "images"}</span><span className="image-open arrow-circle" aria-hidden="true">↗</span>
               {category.personality === "cinematic" && <span className="film-play" aria-hidden="true">▷</span>}
-            </button>
-            <div className="editorial-copy reveal"><p className="editorial-category">{project.category} <span>/ {project.code}</span></p><h3 id={`title-${project.id}`}>{project.title}</h3><p className="editorial-description">{project.description}</p><button className="editorial-open" onClick={() => openProject(project)}>Explore project <span aria-hidden="true">↗</span></button></div>
+            </button>}
+            <div className="editorial-copy reveal"><p className="editorial-category">{project.category} <span>/ {project.code}</span></p><h3 id={`title-${project.id}`}>{project.title}</h3><p className="editorial-description">{project.description}</p>{projectDetailPath(project.id) ? <Link className="editorial-open" href={projectDetailPath(project.id)!}>Explore case study <span aria-hidden="true">↗</span></Link> : <button className="editorial-open" onClick={() => openProject(project)}>Explore project <span aria-hidden="true">↗</span></button>}</div>
           </article>
         ))}
       </section>

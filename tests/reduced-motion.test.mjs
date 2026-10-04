@@ -54,3 +54,32 @@ test('reduced motion creates no GSAP tweens or ScrollTriggers and cleans up', as
   cleanup();
   assert.equal(reverted, true);
 });
+
+for (const paused of [false, true]) {
+  test(`TechTrend ${paused ? 'Pause motion' : 'reduced motion'} skips GSAP imports and removes history listeners`, async () => {
+    const cleanups = [];
+    const events = new Set();
+    const imports = [];
+    const source = await readFile(new URL('../app/components/techtrend/TechTrendExperience.tsx', import.meta.url), 'utf8');
+    const { outputText } = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2020 } });
+    const modules = {
+      react: { useRef: () => ({ current: {} }), useState: () => [null, () => {}], useContext: () => paused, useEffect: effect => cleanups.push(effect()) },
+      'react/jsx-runtime': { jsx: () => null, jsxs: () => null },
+      '../MotionPreference': { MotionPreference: {} },
+      '../../lib/techtrend-screens.json': { screens: [{ id: 'screen-01' }] },
+    };
+    const exports = {};
+    vm.runInNewContext(outputText, {
+      exports,
+      window: { location: { hash: '' }, matchMedia: () => ({ matches: true }), addEventListener: name => events.add(name), removeEventListener: name => events.delete(name) },
+      cancelAnimationFrame() {},
+      require: name => { imports.push(name); assert.ok(name in modules, name); return modules[name]; },
+    });
+    exports.default({ children: null });
+    await new Promise(setImmediate);
+    assert.ok(!imports.some(name => name.startsWith('gsap')));
+    assert.equal(events.size, 2);
+    for (const cleanup of cleanups) cleanup?.();
+    assert.equal(events.size, 0);
+  });
+}
